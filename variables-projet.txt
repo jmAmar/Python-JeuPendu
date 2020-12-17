@@ -1,0 +1,10 @@
+Identifiant_joueur    # identifiant du compte joueur
+mot_passe	      # mot de passe du compte joueur	
+mot_passe_oublie      # mot de passe à recupérer pour un joueur qui a oublié ses accès
+mot_a_deviner	      # mot à deviner dans une partie de jeu
+score_partie	      # sauvegarde du score de la partie
+liste_mot	      # la liste des mots du jeux à deviner 
+liste_joueur	      # la liste des joueur inscrit 
+lettre_proposee	      # Lettre renseigner par les joueurs
+nouvelle_partie	      # Nouvelle partie
+dernier_score	      # le dernier scroe
