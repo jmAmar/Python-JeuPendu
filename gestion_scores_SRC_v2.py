@@ -96,12 +96,12 @@ class Gestion_Scores():
   def extraireScoreJoueur(self, joueur, fichierScores="scores_joueurs.txt"):
     self.fichier_scores = fichierScores
     self.joueur = joueur
-    # instancie l'objet fichier_texte de la classe Fichier_Texte du module gestion_fichiers_SRC_v2
-    fichier_texte = mdlGF.Fichier_Texte()
-    # assigne le nom du fichier des scores à l'objet fichier_texte
-    fichier_texte.assigner(self.fichier_scores)
+    # instancie l'objet fichier_scores de la classe Fichier_Texte du module gestion_fichiers_SRC_v2
+    fichier_scores = mdlGF.Fichier_Texte()
+    # assigne le nom du fichier des scores à l'objet fichier_scores
+    fichier_scores.assigner(self.fichier_scores)
     # ouvre le fchier des scores en lecture et lit son contenu. celui-ci est affecté à la variable locale string_scores
-    string_scores = fichier_texte.lire()
+    string_scores = fichier_scores.lire()
     # convertit la chaîne string_score en dictionnaire avec la fonction "loads" de la bibliothèque json
     dico_scores = json.loads(string_scores)
     # extrait la valeur associée à la clé joueur dans le dictionnaire dico_scores
