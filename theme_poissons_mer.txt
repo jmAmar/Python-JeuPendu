@@ -1,0 +1,21 @@
+poissons_mer : 
+[ "hareng"
+, "turbot"
+, "sardine"
+, "morue"
+, "esturgeon"
+, "anguille"
+, "baudroie"
+, "hyppocampe"
+, "rascasse"
+, barracuda
+, bonite
+, calamar
+, dorade
+, espadon
+, grondin
+, merlan
+, lieu
+, rouget
+, thon
+]

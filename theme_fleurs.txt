@@ -1,0 +1,20 @@
+fleurs :
+[ "jonquille"
+, "geranium"
+, "marguerite"
+, "petunia"
+, "orchidee"
+, "edelweiss"
+, "hibiscus"
+, "camelia"
+, "azalee"
+, "coquelicot"
+, lis
+, iris
+, hortensia
+, jacinthe
+, anemone
+, amaryllis
+, dhallia
+, tulipe
+]
